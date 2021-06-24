@@ -30,7 +30,7 @@ public class MybatisTest {
 
         try {
             InputStream inputStream = new FileInputStream(
-                    "/Users/lijinlong02/alibaba/mybatis-3-mybatis-3.4"
+                    "/Users/muse/mybatis-3-mybatis-3.4"
                             + ".4/src/test/java/org/apache/ibatis/muse/mybatis/mybatis-config.xml");
             sessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         } catch (Exception e) {
